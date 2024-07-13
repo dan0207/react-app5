@@ -1,0 +1,22 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/utilities";
+
+$font-family-base: "poppins";
+
+$font-size-base: 1rem;
+
+$utilities: (
+    "font-size": (property: font-size,
+        class: fs,
+        values: (7: $font-size-base * 0.75,
+            8: $font-size-base * 0.70,
+            9: $font-size-base * 0.65,
+            10: $font-size-base * 0.60))
+);
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
